@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2017.9.15)  29 NOV 2017 22:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2017.9.15)  29 NOV 2017 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,9 +380,15 @@ Chapter 2.
 ]
 \openout2 = `usecase.aux'.
 
+ (./usecase.tex
+Chapter 3.
+) [3
 
-No file usecase.tex.
+
+
+]
 \openout2 = `activity.aux'.
+
 
 No file activity.tex.
 \openout2 = `conceptual.aux'.
@@ -394,8 +400,8 @@ No file architectural.tex.
 (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
 (./usecase.aux) (./activity.aux) (./conceptual.aux) (./architectural.aux)) ) 
 Here is how much of TeX's memory you used:
- 3291 strings out of 495063
- 42255 string characters out of 3182201
+ 3293 strings out of 495063
+ 42279 string characters out of 3182201
  95777 words of memory out of 3000000
  6371 multiletter control sequences out of 15000+200000
  24373 words of font info for 61 fonts, out of 3000000 for 9000
@@ -406,10 +412,10 @@ sr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/tex
 mf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb>
-Output written on master.pdf (7 pages, 37163 bytes).
+Output written on master.pdf (8 pages, 37989 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
