@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2017.9.15)  29 NOV 2017 17:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2017.9.15)  29 NOV 2017 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -213,7 +213,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Info: Redefining \not on input line 1043.
 ) (./master.aux
-(./abstract.aux) (./introduction.aux) (./requirements.aux))
+(./abstract.aux) (./introduction.aux) (./requirements.aux) (./usecase.aux)
+(./activity.aux) (./conceptual.aux) (./architectural.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 25.
@@ -376,20 +377,35 @@ Chapter 2.
 
 
 
-] (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)) ) 
+]
+\openout2 = `usecase.aux'.
+
+
+No file usecase.tex.
+\openout2 = `activity.aux'.
+
+No file activity.tex.
+\openout2 = `conceptual.aux'.
+
+No file conceptual.tex.
+\openout2 = `architectural.aux'.
+
+No file architectural.tex.
+(./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
+(./usecase.aux) (./activity.aux) (./conceptual.aux) (./architectural.aux)) ) 
 Here is how much of TeX's memory you used:
- 3267 strings out of 495063
- 41935 string characters out of 3182201
- 94329 words of memory out of 3000000
- 6367 multiletter control sequences out of 15000+200000
+ 3291 strings out of 495063
+ 42255 string characters out of 3182201
+ 95777 words of memory out of 3000000
+ 6371 multiletter control sequences out of 15000+200000
  24373 words of font info for 61 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,6n,23p,262b,200s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/
-usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/te
-xmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb>
+{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/tex
+mf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb>
 Output written on master.pdf (7 pages, 37163 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
