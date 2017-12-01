@@ -5,5 +5,6 @@
 \contentsline {section}{\numberline {2.1}Critical}{2}
 \contentsline {section}{\numberline {2.2}Solution}{2}
 \contentsline {chapter}{\numberline {3}Use Cases}{3}
-\contentsline {chapter}{\numberline {4}Conceptual Model}{7}
-\contentsline {chapter}{\numberline {5}Architectural Diagram}{9}
+\contentsline {chapter}{\numberline {4}Activity Diagram}{6}
+\contentsline {chapter}{\numberline {5}Conceptual Model}{8}
+\contentsline {chapter}{\numberline {6}Architectural Diagram}{10}
