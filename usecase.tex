@@ -1,7 +1,84 @@
 \chapter{Use Cases}
-
-
 Use case diagrams demonstrate how users will interact with our system. In our case, users will be able to take photos, then accept or reject them. 
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.25]{usecasediagram}
+    \caption{Figure 3.1: Use Cases}
+    \label{fig:usecasediagram}
+\end{figure}
 
-\section{Solution}
+\pagebreak
+
+\begin{enumerate}
+    \item Prompt device to take photo
+    \begin{enumerate}
+        \item Goal: Take photo
+        \item Actors: User
+        \item Pre-conditions:
+            \begin{enumerate}
+                \item Application must be open on device
+            \end{enumerate}
+        \item Steps:
+            \begin{enumerate}
+                \item User presses button to prompt device to take photo
+            \end{enumerate}
+        \item Post-conditions:
+            \begin{enumerate}
+                \item None
+            \end{enumerate}
+        \item Exceptions:
+            \begin{enumerate}
+                \item Application must have device permission to use camera
+            \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+    \item Approve photo
+    \begin{enumerate}
+        \item Goal: Save photo to phone storage
+        \item Actors: User
+        \item Pre-conditions:
+            \begin{enumerate}
+                \item Must have taken a photo
+            \end{enumerate}
+        \item Steps:
+            \begin{enumerate}
+                \item User presses accept button when prompted after taking a photo
+            \end{enumerate}
+        \item Post-conditions:
+            \begin{enumerate}
+                \item None
+            \end{enumerate}
+        \item Exceptions:
+            \begin{enumerate}
+                \item None
+            \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+    \item Reject photo
+    \begin{enumerate}
+        \item Goal: Delete photo and try again
+        \item Actors: User
+        \item Pre-conditions:
+            \begin{enumerate}
+                \item Must have taken a photo
+            \end{enumerate}
+        \item Steps:
+            \begin{enumerate}
+                \item User presses reject button when prompted after taking a photo
+            \end{enumerate}
+        \item Post-conditions:
+            \begin{enumerate}
+                \item None
+            \end{enumerate}
+        \item Exceptions:
+            \begin{enumerate}
+                \item None
+            \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
