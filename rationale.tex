@@ -1,0 +1,9 @@
+\chapter{Design Rationale}
+
+We are using a data flow model to increase the speed at which the application will operate.  We want the device to recognize when the right moment to take a picture is as fast as possible so that the perfect photo is taken.  Because of this, we decided not to have any communication with a server, and instead keep all logic on the local device.
+
+We are using Iphones and the associated iOS devices and software for testing and development because that is what most of our team uses, as well as most of the people we know at Santa Clara University.  This will allow for a potentially large alpha testing process during the later stages, as well as eliminating the need to buy iOS phones for beta testing.
+
+Making use of the existing API TensorFlow will allow us to avoid rewriting existing code, saving a lot of time on development.
+
+We will develop the application in XCode with Swift because they are the designated language and editor combination with iOS to make applications.  We will use Python to design the machine learning component as it is well documented in coordination with TensorFlow.
